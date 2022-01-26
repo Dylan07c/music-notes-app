@@ -1,0 +1,16 @@
+nav.navbar{
+    background-color: #22313f;
+}
+.dropHeading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.twocol{
+    columns: 2;
+}
+
+.proFont{
+    font-size: 20px;
+    color: rgb(55, 116, 231)
+}
