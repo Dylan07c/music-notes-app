@@ -10,7 +10,31 @@ nav.navbar{
     columns: 2;
 }
 
+.threecol{
+    columns: 3;
+}
+
 .proFont{
     font-size: 20px;
     color: rgb(55, 116, 231)
+}
+
+.vabutton{
+    border: 2px solid #0272b3;
+    color: #0272b3;
+}
+
+.rhs{
+    float: right;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ar{
+    display: flex;
+    justify-content: space-around;
+    color: pink;
 }

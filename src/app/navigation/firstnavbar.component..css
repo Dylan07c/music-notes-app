@@ -16,3 +16,16 @@ nav.navbar{
     font-weight: 900;
 }
 
+#cart-button{
+    background: none;
+    border: none;
+}
+
+.scale{
+    width: 60%;
+}
+
+.mnbg{
+    color: #ffffff;
+   background-color: #a2bc35;
+}

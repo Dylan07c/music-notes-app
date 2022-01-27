@@ -17,8 +17,12 @@ div.container{
   }
 
   .nlbutton{
-      border: 2px solid limegreen;
+      border: 2px solid #a2bc35;
       color: currentColor;
+  }
+
+  .bg{
+    background-color: #22313f;
   }
 
  

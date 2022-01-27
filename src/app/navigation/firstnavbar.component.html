@@ -3,17 +3,21 @@
     <a class="navbar-brand" href="#">
       <img src="assets/mn-logo.svg" alt="" height="49" width="190">
     </a>
-    <form class="container">
+
+  
+
+
+    <form class="container scale">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-          aria-describedby="basic-addon1">
-        <span class="input-group-text" id="basic-addon1">
-          <svg class="bi" height="30" fill="currentColor">
+        <input type="text" class="form-control" placeholder="Search for Artist Name or Song Title" aria-label="Search" aria-describedby="basic-addon1">
+        <span class="input-group-text mnbg" id="basic-addon1">
+          <svg href="#" class="bi" width="32" height="32" fill="#cccccc">
             <use xlink:href="assets/bootstrap-icons.svg#search" />
-          </svg>
+        </svg>
         </span>
       </div>
     </form>
+
     <div class="btn-group-vertical">
       <button type="button" class="btn mnheaderbutton">Musicnotes Pro</button>
       <button type="button" class="btn mnheaderbutton">Send a Gift Card</button>
@@ -33,16 +37,20 @@
         </div>
       </div>
     </div>
-    <style>
-      .vl {
-        border-left: 3px solid darkgray;
-        height: 60px;
-      }
-    </style>
 
-    <div class="vl"></div>
-    <button type="button" class="btn btn-success">
-      <i class="bi bi-cart-fill"></i>
+     <style>
+.vl {
+  border-left: 2px solid #cccccc;
+  height: 40px;
+}
+</style>
+
+<div class="vl"></div> 
+
+    <button id="cart-button">
+      <svg href="#" class="bi" width="32" height="32" fill="#ffffff">
+        <use xlink:href="assets/bootstrap-icons.svg#cart-fill" />
+    </svg>
     </button>
   </div>
 </nav>
