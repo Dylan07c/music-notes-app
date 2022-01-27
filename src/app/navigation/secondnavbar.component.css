@@ -38,3 +38,18 @@ nav.navbar{
     justify-content: space-around;
     color: pink;
 }
+
+.divided{
+    border-right: solid 2px black; 
+}
+
+.save{
+    color: #a2bc35;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.ul{
+    text-decoration: underline;
+}
