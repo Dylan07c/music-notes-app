@@ -1,3 +1,8 @@
 p{
     background-color: gray;
 }
+
+div.container-fluid{
+    justify-content: center;
+    column-gap: 50px;
+}

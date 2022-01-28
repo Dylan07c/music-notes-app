@@ -1,0 +1,32 @@
+div.container-fluid{
+    background-color: #22313f;
+    color: #cccccc;
+    justify-content: center;
+}
+
+.l1{
+color: #757f87;
+font-size: 33px;
+font-weight: 100;
+letter-spacing: 11px;
+margin-bottom: 0;
+}
+
+.l2{
+font-style: italic;
+font-size: 22px;
+margin-bottom: 15px;
+}
+
+.l3{
+
+
+}
+
+.moreButton{
+    color: #00a1ff;
+border-color: #00a1ff;
+display: inline-block;
+padding: 10px 35px;
+border-radius: 50px;
+}

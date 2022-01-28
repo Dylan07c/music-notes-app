@@ -1,0 +1,16 @@
+.card{
+width: 14rem;
+border: none;
+}
+
+.round-card{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    margin: 10px;
+}
+
+div.card-body{
+    padding: 5px;
+
+}
