@@ -44,6 +44,7 @@ nav.navbar{
 }
 
 .save{
+    text-emphasis-color: #a2bc35;
     color: #a2bc35;
     font-weight: bold;
     font-style: italic;
@@ -52,4 +53,15 @@ nav.navbar{
 
 .ul{
     text-decoration: underline;
+}
+
+.bigSave{
+    font-size: 40px;
+    color: #4d9cc9;
+}
+
+.big15{
+    font-size: 40px;
+    color: #4d9cc9;
+    margin-bottom: 350px;
 }
