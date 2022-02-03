@@ -5,4 +5,47 @@ p{
 div.container-fluid{
     justify-content: center;
     column-gap: 50px;
+    padding-left: 420px;
+    padding-right: 420px;
+}
+
+.mnBlog{
+    text-align: center;
+    font-size: 35px;
+    color: #0272b3;
+    font-weight: 300;
+    color: #157bbf;
+    letter-spacing: 1px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 15rem;
+    
+    padding: 10px 35px;
+    margin-top:20px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    outline: 0;
+    border: 1px solid #999;
+    color: #666;
+
+}
+
+.cjust{
+    justify-content: center;
+}
+.flatIMG{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+img.card-img-top{
+    width: 70rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }

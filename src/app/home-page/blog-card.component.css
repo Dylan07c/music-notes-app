@@ -1,0 +1,19 @@
+div.card{
+    width: 25rem;
+    background-color: #efefef;
+}
+
+.title{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #0272b3;
+   }
+   
+.body{
+font-size: 14px;
+}
+
+.more{
+    color: #22313f;
+    margin-bottom: 15px;
+}

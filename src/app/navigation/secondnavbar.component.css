@@ -39,8 +39,8 @@ nav.navbar{
     color: pink;
 }
 
-.divided{
-    border-right: solid 2px black; 
+.divide{
+    border-right: solid 1px white;
 }
 
 .save{
@@ -64,4 +64,8 @@ nav.navbar{
     font-size: 40px;
     color: #4d9cc9;
     margin-bottom: 350px;
+}
+
+.bump{
+    margin-bottom: 30px;
 }
