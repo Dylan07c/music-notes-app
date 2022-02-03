@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 
 @Component({
@@ -8,6 +8,14 @@ import { Component } from "@angular/core";
 })
 export class BlogCardComponent{
 
+    @Input() img: string;
+    @Input() heading: string;
+    @Input() body: string;
 
+    constructor() {
+        this.img = "";
+        this.heading = "xxxx";
+        this.body = "Missing body";
+    }
 
 }

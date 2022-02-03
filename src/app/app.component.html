@@ -4,9 +4,9 @@
 Welcome to Musicnotes!
 
 <div class="container-fluid d-flex">
-<mn-category-card>Loading...</mn-category-card>
-<mn-category-card>Loading...</mn-category-card>
-<mn-category-card>Loading...</mn-category-card>
+    <mn-category-card>Loading...</mn-category-card>
+    <mn-category-card>Loading...</mn-category-card>
+    <mn-category-card>Loading...</mn-category-card>
 </div>
 
 <mn-video-bar>Loading...</mn-video-bar>
@@ -15,10 +15,15 @@ Welcome to Musicnotes!
     <div class="row mnBlog">From The Musicnotes Blog</div>
     <div class="row">
         <div class="container-fluid d-flex">
-        <mn-blog-card>Loading...</mn-blog-card>
-        <mn-blog-card>Loading...</mn-blog-card>
-        <mn-blog-card>Loading...</mn-blog-card>
-    </div>
+            <div *ngFor="let card of blogCards">
+            <mn-blog-card img = {{card.img}}
+            heading = {{card.heading}}
+            body = {{card.body}}>
+            Loading...
+        </mn-blog-card>
+        </div>
+            
+        </div>
     </div>
     <div class="row cjust">
         <button type="button" class="btn btn-outline-primary nlbutton">Visit The Blog</button>
