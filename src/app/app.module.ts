@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { FirstNavBarComponent } from './navigation/firstnavbar.component';
 import { SecondNavBarComponent } from './navigation/secondnavbar.component';
 import { FooterComponent } from './navigation/footer.component';
-import { CategoryCardComponent } from './store/feature.card.component';
+import { CategoryCardComponent } from './store/feature-card.component';
 import { VideoBarComponent } from './home-page/video-bar.component';
 import { BlogCardComponent } from './home-page/blog-card.component';
 

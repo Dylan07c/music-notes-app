@@ -4,9 +4,11 @@
 Welcome to Musicnotes!
 
 <div class="container-fluid d-flex">
-    <mn-category-card>Loading...</mn-category-card>
-    <mn-category-card>Loading...</mn-category-card>
-    <mn-category-card>Loading...</mn-category-card>
+    <div *ngFor="let category of categoryCards">
+        <mn-category-card img={{category.img}} heading={{category.heading}} body={{category.body}}>
+            Loading...</mn-category-card>
+
+    </div>
 </div>
 
 <mn-video-bar>Loading...</mn-video-bar>
@@ -16,13 +18,11 @@ Welcome to Musicnotes!
     <div class="row">
         <div class="container-fluid d-flex">
             <div *ngFor="let card of blogCards">
-            <mn-blog-card img = {{card.img}}
-            heading = {{card.heading}}
-            body = {{card.body}}>
-            Loading...
-        </mn-blog-card>
-        </div>
-            
+                <mn-blog-card img={{card.img}} heading={{card.heading}} body={{card.body}}>
+                    Loading...
+                </mn-blog-card>
+            </div>
+
         </div>
     </div>
     <div class="row cjust">
