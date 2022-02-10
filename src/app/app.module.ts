@@ -8,6 +8,7 @@ import { FooterComponent } from './navigation/footer.component';
 import { CategoryCardComponent } from './store/feature-card.component';
 import { VideoBarComponent } from './home-page/video-bar.component';
 import { BlogCardComponent } from './home-page/blog-card.component';
+import { SongBarComponent } from './home-page/song-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BlogCardComponent } from './home-page/blog-card.component';
     FooterComponent,
     CategoryCardComponent,
     VideoBarComponent,
-    BlogCardComponent
+    BlogCardComponent,
+    SongBarComponent
   ],
   imports: [
     BrowserModule

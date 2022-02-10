@@ -1,0 +1,6 @@
+[Feb 10, 2022 Submission]
+Main Features:
+    Renamed circular cards to feature-card and added attributes and data binding to accommodate multiple instances
+    Added blog section incl. data binding & multiple instances
+Bonus Features:
+    Added text above feature-card section

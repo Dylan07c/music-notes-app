@@ -49,3 +49,19 @@ img.card-img-top{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+
+.adParagraph{
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.adHeading{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #0272b3;
+}
