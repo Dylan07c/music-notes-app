@@ -9,6 +9,7 @@ import { CategoryCardComponent } from './store/feature-card.component';
 import { VideoBarComponent } from './home-page/video-bar.component';
 import { BlogCardComponent } from './home-page/blog-card.component';
 import { SongBarComponent } from './home-page/song-bar.component';
+import { SheetMusicCard } from './category-page/sheet-music-card';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SongBarComponent } from './home-page/song-bar.component';
     CategoryCardComponent,
     VideoBarComponent,
     BlogCardComponent,
-    SongBarComponent
+    SongBarComponent,
+    SheetMusicCard
   ],
   imports: [
     BrowserModule

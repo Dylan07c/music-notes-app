@@ -1,0 +1,15 @@
+.card-body{
+    background-color: #0272b3;
+}
+
+.card-title{
+    color: #fff;
+}
+
+.text-muted{
+    color: rgb(140, 205, 248)
+}
+
+.card-text{
+    color: rgb(140, 205, 248)
+}
