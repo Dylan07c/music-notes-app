@@ -1,3 +1,15 @@
+[Feb 16, 2022 Submission]
+Main features:
+    Added routing functionality for the following sections:
+        Home
+        Piano
+        Guitar
+        Voice
+        Flute / Woodwind
+Bonus Features:
+    Added sheet music cards
+    Added image and text above sheet music cards
+
 [Feb 10, 2022 Submission]
 Main Features:
     Renamed circular cards to feature-card and added attributes and data binding to accommodate multiple instances
