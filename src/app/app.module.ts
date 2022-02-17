@@ -14,7 +14,6 @@ import { SheetMusicCard } from './category-page/sheet-music-card';
 import { PianoMusicLayoutComponent } from './category-page/piano-music-layout.component';
 import { HomeLayoutComponent } from './home-page/home-layout.component';
 import { AppRoutingModule } from './app-routing.module';
-import { BrassMusicLayoutComponent } from './category-page/brass-music-layout.component';
 import { GuitarMusicLayoutComponent } from './category-page/guitar-music-layout.component';
 import { VoiceMusicLayoutComponent } from './category-page/voice-music-layout.component';
 import { WoodwindMusicLayoutComponent } from './category-page/woodwind-music-layout.component';
@@ -33,7 +32,6 @@ import { WoodwindMusicLayoutComponent } from './category-page/woodwind-music-lay
     PianoMusicLayoutComponent,
     HomeLayoutComponent,
     PianoMusicLayoutComponent,
-    BrassMusicLayoutComponent,
     GuitarMusicLayoutComponent,
     VoiceMusicLayoutComponent,
     WoodwindMusicLayoutComponent
