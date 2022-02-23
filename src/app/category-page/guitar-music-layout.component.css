@@ -2,11 +2,49 @@ div.container-fluid{
     color: #cccccc;
     justify-content: center;
     column-gap: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
 }
 
 .cjust{
     justify-content: center;
+}
+
+.header{
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+button.btn{
+    background-color: #fff;
+    color: black;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 10px 150px 10px 20px;
+}
+a.dropdown-item{
+    font-size: 12px;
+}
+
+.bold{
+    color: #fff;
+    font-size: 35px;
+}
+
+.dsm{
+    font-size: 13px;
+    color: #8bb1c8;
+    letter-spacing: 0.52rem;
+}
+
+.sb{
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 25px;
+}
+
+.lm{
+    margin-left: 130px;
 }
 
 .l1{
@@ -30,6 +68,16 @@ margin-bottom: 15px;
 
 .top-pad{
     padding-top: 45px;
+}
+
+.pr{
+    padding-right: 130px;
+}
+
+
+
+.b{
+    font-weight: bold;
 }
 
 .moreButton{

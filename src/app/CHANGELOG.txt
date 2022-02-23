@@ -1,3 +1,11 @@
+[Feb 23, 2022 Submission]
+Main Submission:
+    Added to Piano and Guitar Sections:
+        Header w/ genre dropdown
+        Search Bar
+    Refined card / text / image elements in Piano and Guitar Sections
+
+
 [Feb 16, 2022 Submission]
 Main features:
     Added routing functionality for the following sections:
