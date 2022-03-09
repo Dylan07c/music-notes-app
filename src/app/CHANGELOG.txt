@@ -1,3 +1,10 @@
+[March 9, 2022 Submission]
+Main Submission:
+    Moved feature cards to Firebase storage rather than mocklist
+    Created feature.service.ts to import feature card contents
+    Modified home-layout.component ngFor loop to take data from feature.service
+
+    
 [March 2, 2022 Submission]
 Main Submission:
     Added firebase support
