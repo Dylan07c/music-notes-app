@@ -2,11 +2,11 @@ import { Component, Input } from "@angular/core";
 
 
 @Component({
-    selector: 'mn-category-card',
+    selector: 'mn-feature-card',
     templateUrl: './feature-card.component.html',
     styleUrls: ['./feature-card.component.css']
 })
-export class CategoryCardComponent{
+export class FeatureCardComponent{
 
     @Input() img: string;
     @Input() heading: string;

@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "music-notes-app-e5bc8"
+  },
+  "targets": {
+    "music-notes-app-e5bc8": {
+      "hosting": {
+        "music-notes": [
+          "music-notes-app-e5bc8"
+        ]
+      }
+    }
   }
 }

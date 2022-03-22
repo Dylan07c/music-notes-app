@@ -1,4 +1,4 @@
-export class CategoryCardModel{
+export class FeatureCardModel{
     img: string;
     heading: string;
     body: string;

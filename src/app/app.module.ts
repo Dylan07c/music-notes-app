@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { FirstNavBarComponent } from './navigation/firstnavbar.component';
 import { SecondNavBarComponent } from './navigation/secondnavbar.component';
 import { FooterComponent } from './navigation/footer.component';
-import { CategoryCardComponent } from './home-page/feature-card.component';
+import { FeatureCardComponent } from './home-page/feature-card.component';
 import { VideoBarComponent } from './home-page/video-bar.component';
 import { BlogCardComponent } from './home-page/blog-card.component';
 import { SongBarComponent } from './home-page/song-bar.component';
@@ -19,7 +19,11 @@ import { VoiceMusicLayoutComponent } from './category-page/voice-music-layout.co
 import { WoodwindMusicLayoutComponent } from './category-page/woodwind-music-layout.component';
 import { HttpClientModule } from '@angular/common/http'
 import { UserInfoComponent } from './user-info/user-info-component';
-
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,7 @@ import { UserInfoComponent } from './user-info/user-info-component';
     FirstNavBarComponent,
     SecondNavBarComponent,
     FooterComponent,
-    CategoryCardComponent,
+    FeatureCardComponent,
     VideoBarComponent,
     BlogCardComponent,
     SongBarComponent,
@@ -44,7 +48,9 @@ import { UserInfoComponent } from './user-info/user-info-component';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

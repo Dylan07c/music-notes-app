@@ -1,23 +1,22 @@
-import { HttpClient } from "@angular/common/http";
+
 import { Injectable } from "@angular/core";
-import { CategoryCardModel } from "./feature.model";
+import { FeatureCardModel } from "./feature.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable({
     providedIn: 'root'
 })
 export class FeatureService{
-    private baseUrl:string = 'https://music-notes-app-e5bc8-default-rtdb.firebaseio.com/';
-    private featureEndPoint: string = 'catagories.json';
-    
-    constructor(private http:HttpClient){
+   
+    constructor(private db: AngularFireDatabase){
         
     }
 
     public getProducts() {
-        return this.http.get<CategoryCardModel []>(this.baseUrl + this.featureEndPoint);
+        return this.db.list<FeatureCardModel>("catagories").valueChanges();
     }
 
-    public getProduct() {
-        return this.http.get(this.baseUrl + this.featureEndPoint)
+    public getProduct(index:number) {
+        return this.db.list("features", ref => ref.orderByChild("body").startAt(2)).valueChanges();
     }
 }

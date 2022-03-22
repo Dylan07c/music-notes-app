@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { mock_sm_card_list } from "../category-page/mock-sm-card-list";
 import { SheetMusicCardModel } from "../category-page/sheet-music-card.model";
-import { CategoryCardModel } from "../home-page/feature.model";
+import { FeatureCardModel } from "../home-page/feature.model";
 import { FeatureService } from "../home-page/features.service";
 
 import { BlogCardModel } from "./blog-card-item.model";
@@ -14,7 +14,7 @@ import { mock_blog_list } from "./mock-blog-list";
 })
 export class HomeLayoutComponent implements OnInit{
     blogCards: BlogCardModel[] = [];
-    categoryCards: CategoryCardModel[] = [];
+    featureCards: FeatureCardModel[] = [];
     SongCards: SheetMusicCardModel[] = [];
 
     constructor(private service:FeatureService) {
@@ -34,7 +34,7 @@ export class HomeLayoutComponent implements OnInit{
         this.service.getProducts().subscribe(data => {
             console.log(data);
             for ( var feature of data){
-                this.categoryCards.push(feature);
+                this.featureCards.push(feature);
             }
         });
     }
