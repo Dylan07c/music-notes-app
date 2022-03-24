@@ -1,3 +1,8 @@
+March 24, 2022 Submission]
+Main Submission
+    Deployed website via firebase hosting
+    Updated data fetching
+    
 [March 9, 2022 Submission]
 Main Submission:
     Moved feature cards to Firebase storage rather than mocklist
