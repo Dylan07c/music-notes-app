@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addFeature(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        heading
+                    </span>
+                    <input type="text" class="form-control"ngModel name="heading">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Body
+                    </span>
+                    <input type="text" class="form-control" ngModel name="body">
+                </div>
+
+                
+
+                <button class="btn">Create Account</button>
+            </form>
+        </div>
+    </div>
+</div>

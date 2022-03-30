@@ -19,4 +19,8 @@ export class FeatureService{
     public getProduct(index:number) {
         return this.db.list("features", ref => ref.orderByChild("body").startAt(2)).valueChanges();
     }
+
+    public addFeature(feature:FeatureCardModel){
+        this.db.list("catagories").push(feature);
+    }
 }
