@@ -1,9 +1,14 @@
-March 24, 2022 Submission]
+[March 31, 2022 Submission]
+Main Submission:
+    Added template form to add feature listings
+    Added expanded firebase functionality to dynamically add new feature cards from frontend
+
+[March 24, 2022 Submission]
 Main Submission
     Deployed website via firebase hosting
-    Updated data fetching
+    Updated data fetchingW
     
-[March 9, 2022 Submission]
+[March 9, 2022 Submission]W
 Main Submission:
     Moved feature cards to Firebase storage rather than mocklist
     Created feature.service.ts to import feature card contents
@@ -11,7 +16,7 @@ Main Submission:
 
     
 [March 2, 2022 Submission]
-Main Submission:
+Main Submission:W
     Added firebase support
     Added user info component backed by Firebase data storage
 
