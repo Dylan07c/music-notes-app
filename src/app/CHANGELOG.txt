@@ -1,3 +1,8 @@
+[April 13th Submission]
+Main Submission:
+    Added User authentication
+    Added /auth page to handle login functionality and add users
+    
 [March 31, 2022 Submission]
 Main Submission:
     Added template form to add feature listings
@@ -16,7 +21,7 @@ Main Submission:
 
     
 [March 2, 2022 Submission]
-Main Submission:W
+Main Submission:
     Added firebase support
     Added user info component backed by Firebase data storage
 

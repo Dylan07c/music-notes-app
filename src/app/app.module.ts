@@ -26,6 +26,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './category-page/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { FormsModule } from '@angular/forms';
     VoiceMusicLayoutComponent,
     WoodwindMusicLayoutComponent,
     UserInfoComponent,
-    AddProductComponent
+    AddProductComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
